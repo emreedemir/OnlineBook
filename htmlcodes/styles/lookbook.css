@@ -1,0 +1,35 @@
+
+.book {
+
+
+ position :relative ;
+
+ top : 80px;
+ left :50px;
+
+
+}
+
+
+ .userpanel{
+ 
+position :relative ;
+
+left : 1000px;
+bottom :700px;
+
+
+}
+
+.aboutbook{
+
+position :relative ;
+ 
+ top: -300px;
+ left :400px;
+
+
+}
+
+
+
