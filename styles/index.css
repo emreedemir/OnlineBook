@@ -1,44 +1,55 @@
-.header {
-    position: relative;
-    top: 150px;
-    left: 700px;
-}
-
-h1 {
+header {
+    left: 50%;
+    text-align: center;
     color: gray;
-    font-size: 90px;
+    font-size: 50px;
     font-style: italic;
-    font-family: "Times New Roman", Times, serif;
 }
 
-.loginAndRegister {
-    position: relative;
-    top: -20px;
-    left: 1500px;
-    font-size: 20px;
+ul.menu {
+    position: absolute;
+    top: 8px;
+    right: 24px;
+}
+
+ul.menu>li {
+    font-size: 20;
     color: gray;
+    line-height: 20px;
+    display: inline-block;
 }
 
-.searchbook {
-    position: relative;
-    top: 200px;
-    left: 700px;
+div.trending {
+    position: absolute;
+    left: 0;
+    top: 5%;
 }
 
-.trending {
-    position: relative;
-    top: 150px;
-    left: 20px;
+div.searchbook {
+    text-align: center;
 }
 
-.textbox {
-    height: 55px;
-    width: 500px;
-    font-size: 20px;
+div.searchbook input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 30px;
 }
 
-.booktypes {
-    position: relative;
-    bottom: 350px;
+div.searchbook button {
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+div.searchbook button:hover {
+    background: #ccc;
+}
+
+div.booktypes {
+    position: absolute;
+    bottom: 10px;
     left: 600px;
 }
