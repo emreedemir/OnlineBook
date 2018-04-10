@@ -1,35 +1,33 @@
-
 .book {
-
-
- position :relative ;
-
- top : 80px;
- left :50px;
-
-
+    position: relative;
+    top: 80px;
+    left: 50px;
 }
 
-
- .userpanel{
- 
-position :relative ;
-
-left : 1000px;
-bottom :700px;
-
-
+.book table {
+    background-color: gray;
+    width: 600px;
+    height: 700px;
 }
 
-.aboutbook{
-
-position :relative ;
- 
- top: -300px;
- left :400px;
-
-
+.userpanel {
+    position: relative;
+    left: 1000px;
+    bottom: 700px;
 }
 
+.userpanel a {
+    color: gray;
+    font-size: 15px;
+}
 
+.aboutbook {
+    position: relative;
+    top: -300px;
+    left: 400px;
+}
 
+.aboutbook table {
+    width: 600px;
+    height: 700px;
+}
